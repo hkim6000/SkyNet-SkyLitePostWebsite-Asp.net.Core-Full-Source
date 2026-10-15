@@ -1,0 +1,1791 @@
+{
+  "settings": {
+    "name": "SkyLite Post",
+    "tagline": "Independent news for Calder Bay and the world",
+    "accent": "#B4232A",
+    "theme": "light",
+    "email": "newsroom@skylitepost.example",
+    "phone": "+1 555 0142",
+    "address": "1 Quay Street, Calder Bay",
+    "about": "The SkyLite Post is an independent daily newspaper for Calder Bay and the province of Harrow. Our reporters cover the city, the world, business, sport and culture, and our opinion pages are open to every reader.\n\nWe correct our mistakes in public, we keep news and opinion apart, and we never let advertisers decide what we cover.\n\nThis is a fictional newspaper built as a demo of the SkyNet Framework. Every story, place and person on this site is invented.",
+    "comments": true,
+    "social": [
+      {
+        "key": "instagram",
+        "url": "https://www.instagram.com/skylitepost",
+        "show": true
+      },
+      {
+        "key": "youtube",
+        "url": "https://www.youtube.com/@skylitepost",
+        "show": true
+      },
+      {
+        "key": "x",
+        "url": "https://x.com/skylitepost",
+        "show": true
+      },
+      {
+        "key": "facebook",
+        "url": "https://www.facebook.com/skylitepost",
+        "show": true
+      },
+      {
+        "key": "linkedin",
+        "url": "https://www.linkedin.com/in/skylitepost",
+        "show": true
+      },
+      {
+        "key": "tiktok",
+        "url": "https://www.tiktok.com/@skylitepost",
+        "show": true
+      },
+      {
+        "key": "pinterest",
+        "url": "https://www.pinterest.com/skylitepost",
+        "show": false
+      },
+      {
+        "key": "threads",
+        "url": "https://www.threads.net/@skylitepost",
+        "show": true
+      },
+      {
+        "key": "behance",
+        "url": "https://www.behance.net/skylitepost",
+        "show": false
+      },
+      {
+        "key": "flickr",
+        "url": "https://www.flickr.com/photos/skylitepost",
+        "show": false
+      },
+      {
+        "key": "vimeo",
+        "url": "https://vimeo.com/skylitepost",
+        "show": false
+      }
+    ]
+  },
+  "desks": [
+    {
+      "key": "news",
+      "name": "News",
+      "blurb": "Calder Bay, the province and the people who run them.",
+      "sections": [
+        {
+          "key": "local",
+          "name": "Local"
+        },
+        {
+          "key": "politics",
+          "name": "Politics"
+        },
+        {
+          "key": "education",
+          "name": "Education"
+        }
+      ]
+    },
+    {
+      "key": "world",
+      "name": "World",
+      "blurb": "Reports from our correspondents around the world.",
+      "sections": [
+        {
+          "key": "americas",
+          "name": "Americas"
+        },
+        {
+          "key": "europe",
+          "name": "Europe"
+        },
+        {
+          "key": "asia-pacific",
+          "name": "Asia-Pacific"
+        },
+        {
+          "key": "middle-east-africa",
+          "name": "Middle East & Africa"
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "name": "Business",
+      "blurb": "Markets, companies and the technology that moves them.",
+      "sections": [
+        {
+          "key": "markets",
+          "name": "Markets"
+        },
+        {
+          "key": "tech",
+          "name": "Tech"
+        }
+      ]
+    },
+    {
+      "key": "sports",
+      "name": "Sports",
+      "blurb": "Results, previews and the stories behind the scores.",
+      "sections": [
+        {
+          "key": "football",
+          "name": "Football"
+        },
+        {
+          "key": "running",
+          "name": "Running"
+        },
+        {
+          "key": "sailing",
+          "name": "Sailing"
+        }
+      ]
+    },
+    {
+      "key": "culture",
+      "name": "Culture",
+      "blurb": "Stage, screen, galleries and the city's tables.",
+      "sections": [
+        {
+          "key": "arts",
+          "name": "Arts"
+        },
+        {
+          "key": "food",
+          "name": "Food"
+        }
+      ]
+    },
+    {
+      "key": "opinion",
+      "name": "Opinion",
+      "blurb": "The Post's view, and yours.",
+      "sections": [
+        {
+          "key": "editorials",
+          "name": "Editorials"
+        },
+        {
+          "key": "letters",
+          "name": "Letters"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "council-approves-waterfront-plan",
+      "title": "Council approves the waterfront plan after a nine-hour session",
+      "dek": "The vote clears the way for a new park, a ferry stop and 600 homes on the old dockyards.",
+      "body": "<p>Calder Bay City Council approved the long-debated waterfront plan just before midnight on Tuesday, ending a session that ran for more than nine hours and drew over two hundred public speakers.</p><p>The plan turns the old dockyards into a mixed district with a harbour park, a ferry stop and about six hundred homes, a third of them priced below market rents. Work on the sea wall is due to start next spring.</p><p>Supporters packed the gallery in blue shirts; opponents argued that the ferry stop should come first and the homes later. The final vote was seven to four.</p><p>“This is the biggest change to the harbour in fifty years,” said council chair Marta Lindqvist. “We owe it to everyone who waited this long to get it right.”</p>",
+      "section": "local",
+      "tags": [
+        "waterfront",
+        "housing",
+        "council"
+      ],
+      "image": "images/news/full/council-hall.webp",
+      "caption": "City hall on Harbour Square.",
+      "author": "owen",
+      "status": "published",
+      "date": "2026-10-15T00:57:46Z",
+      "updated": "2026-10-15T00:57:46Z",
+      "breaking": true,
+      "front": true,
+      "views": 4820,
+      "allowComments": true
+    },
+    {
+      "id": "bay-bridge-night-closures",
+      "title": "Bay Bridge to close at night for six weeks of cable work",
+      "dek": "Drivers will be diverted through the tunnel between 11pm and 5am from Monday.",
+      "body": "<p>The Bay Bridge will close to traffic overnight for six weeks from Monday while crews replace the hanger cables on the main span.</p><p>Night buses will run through the harbour tunnel, and the last ferry from North Pier will leave thirty minutes later than usual.</p><p>The transport office said daytime traffic would not be affected and that the work had been timed to avoid the autumn festival.</p>",
+      "section": "local",
+      "tags": [
+        "transport",
+        "bay bridge"
+      ],
+      "image": "images/news/full/bay-bridge.webp",
+      "caption": "The Bay Bridge at dusk.",
+      "author": "dan",
+      "status": "published",
+      "date": "2026-10-14T22:25:46Z",
+      "updated": "2026-10-14T22:25:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 2210,
+      "allowComments": true
+    },
+    {
+      "id": "harbour-lights-return",
+      "title": "Harbour lights return to the old quay after a decade",
+      "dek": "Volunteers restored forty iron lamps that once lined the fish market.",
+      "body": "<p>For the first time in ten years, the old quay was lit on Saturday night by the forty iron lamps that once lined the fish market.</p><p>A group of volunteers spent two winters stripping, repairing and rewiring the lamps in a borrowed boat shed.</p><p>“People kept stopping to tell us where they had their first date,” said organiser Hal Brennan.</p>",
+      "section": "local",
+      "tags": [
+        "harbour",
+        "heritage"
+      ],
+      "image": "images/news/full/harbour-night.webp",
+      "caption": "The old quay after dark.",
+      "author": "dan",
+      "status": "published",
+      "date": "2026-10-14T00:35:46Z",
+      "updated": "2026-10-14T00:35:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 1340,
+      "allowComments": true
+    },
+    {
+      "id": "assembly-budget-vote",
+      "title": "Harrow assembly passes budget by a single vote",
+      "dek": "The spending plan adds funding for rural clinics and delays the road programme.",
+      "body": "<p>The Harrow provincial assembly passed next year's budget by thirty-one votes to thirty on Wednesday after a late amendment won over two independent members.</p><p>The final plan adds money for rural clinics and school buses and pushes two road projects back by a year.</p><p>Finance minister Elena Ward called the result “narrow but clear”. The opposition said it would return to the road programme in the spring session.</p>",
+      "section": "politics",
+      "tags": [
+        "budget",
+        "assembly"
+      ],
+      "image": "images/news/full/assembly-dome.webp",
+      "caption": "The provincial assembly building.",
+      "author": "owen",
+      "status": "published",
+      "date": "2026-10-14T20:35:46Z",
+      "updated": "2026-10-14T20:35:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 3150,
+      "allowComments": true
+    },
+    {
+      "id": "mayor-race-opens",
+      "title": "Three candidates enter the race for mayor",
+      "dek": "The field is set for the first open mayoral race in twelve years.",
+      "body": "<p>Nominations closed on Friday with three candidates for mayor of Calder Bay, the first race without an incumbent in twelve years.</p><p>The candidates are a former harbour engineer, a school principal and a two-term councillor. All three have promised a debate in each district.</p><p>Voting takes place in eight weeks. The Post will publish profiles of each candidate in the coming days.</p>",
+      "section": "politics",
+      "tags": [
+        "election",
+        "mayor"
+      ],
+      "image": "images/news/full/assembly-dusk.webp",
+      "caption": "Supporters gather outside the assembly.",
+      "author": "owen",
+      "status": "published",
+      "date": "2026-10-13T21:15:46Z",
+      "updated": "2026-10-13T21:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 2470,
+      "allowComments": true
+    },
+    {
+      "id": "voting-hours-extended",
+      "title": "Polling stations will open an hour earlier this year",
+      "dek": "The electoral office says the change will help shift workers.",
+      "body": "<p>Polling stations across Calder Bay will open at 6am instead of 7am on election day, the electoral office announced.</p><p>The office said a survey of shift workers had shown that the extra hour would make the biggest difference to turnout.</p><p>Postal voting forms are available from libraries and community centres from next week.</p>",
+      "section": "politics",
+      "tags": [
+        "election"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "dan",
+      "status": "published",
+      "date": "2026-10-12T01:55:46Z",
+      "updated": "2026-10-12T01:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 640,
+      "allowComments": true
+    },
+    {
+      "id": "new-library-wing",
+      "title": "Central library opens a new wing for students",
+      "dek": "Late opening hours and two hundred study desks arrive in time for exams.",
+      "body": "<p>The central library opened its new east wing on Monday, adding two hundred study desks and a quiet floor that stays open until midnight during exam season.</p><p>The wing was paid for by a local trust and a decade of book sales. Students queued before the doors opened.</p><p>“We want this to feel like a second home,” said head librarian Ines Carvalho.</p>",
+      "section": "education",
+      "tags": [
+        "libraries",
+        "students"
+      ],
+      "image": "images/news/full/library-stacks.webp",
+      "caption": "The stacks in the new east wing.",
+      "author": "dan",
+      "status": "published",
+      "date": "2026-10-14T18:35:46Z",
+      "updated": "2026-10-14T18:35:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 1980,
+      "allowComments": true
+    },
+    {
+      "id": "school-meals-pilot",
+      "title": "Free school breakfasts to expand to twelve more schools",
+      "dek": "A pilot programme reported better attendance in its first year.",
+      "body": "<p>Free breakfast clubs will expand to twelve more primary schools after a pilot showed a clear rise in morning attendance.</p><p>The education board said the clubs would open at 7.45am and be staffed by parents and volunteers.</p><p>Head teachers said the clubs had also made mornings calmer for families with long commutes.</p>",
+      "section": "education",
+      "tags": [
+        "schools",
+        "meals"
+      ],
+      "image": "images/news/full/reading-room.webp",
+      "caption": "The quiet floor stays open until midnight.",
+      "author": "owen",
+      "status": "published",
+      "date": "2026-10-13T06:15:46Z",
+      "updated": "2026-10-13T06:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 870,
+      "allowComments": true
+    },
+    {
+      "id": "teacher-training-centre",
+      "title": "Teacher training centre to move to the old post office",
+      "dek": "The listed building will be converted over the next two years.",
+      "body": "<p>The province's teacher training centre will move into the old post office on Mill Street, ending a long search for a new home.</p><p>The building's main hall will become a lecture theatre, and the sorting rooms will be turned into classrooms.</p><p>Work is expected to finish in two years.</p>",
+      "section": "education",
+      "tags": [
+        "schools",
+        "heritage"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "dan",
+      "status": "published",
+      "date": "2026-10-11T10:55:46Z",
+      "updated": "2026-10-11T10:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 410,
+      "allowComments": true
+    },
+    {
+      "id": "andes-rail-link",
+      "title": "Mountain rail link reopens after a decade of repairs",
+      "dek": "The line between the coast and the high valleys carries passengers again.",
+      "body": "<p>Passenger trains returned to the mountain line between the port of Costa Leve and the high valley towns on Sunday, ten years after landslides closed the route.</p><p>The railway climbs more than three thousand metres through twenty-two tunnels. The first train was met by brass bands at every station.</p><p>Operators expect the line to carry farmers, students and a growing number of visitors.</p>",
+      "section": "americas",
+      "tags": [
+        "rail",
+        "travel"
+      ],
+      "image": "images/news/full/andes-dawn.webp",
+      "caption": "Dawn over the high valleys.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-14T21:15:46Z",
+      "updated": "2026-10-14T21:15:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 2890,
+      "allowComments": true
+    },
+    {
+      "id": "river-city-night-markets",
+      "title": "Night markets bring a river city back to life",
+      "dek": "Weekly markets have filled empty streets in Puerto Selva's old centre.",
+      "body": "<p>Every Thursday the riverside streets of Puerto Selva fill with food stalls, musicians and families until long after midnight.</p><p>The markets started three years ago with eight traders. There are now more than two hundred, and several empty shops have reopened.</p><p>City officials say the markets have done more for the old centre than any regeneration plan.</p>",
+      "section": "americas",
+      "tags": [
+        "cities",
+        "markets"
+      ],
+      "image": "images/news/full/river-city.webp",
+      "caption": "Puerto Selva's riverside at night.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-13T01:15:46Z",
+      "updated": "2026-10-13T01:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 1120,
+      "allowComments": true
+    },
+    {
+      "id": "coffee-harvest-early",
+      "title": "Coffee growers start the harvest three weeks early",
+      "dek": "A warm, dry season has changed the calendar across the highlands.",
+      "body": "<p>Coffee growers in the highlands began picking three weeks earlier than usual this year after an unusually warm and dry season.</p><p>Cooperatives said the crop was smaller but of good quality, and that the early start had made it harder to find pickers.</p><p>Several farms are trying shade trees and new varieties to cope with the changing seasons.</p>",
+      "section": "americas",
+      "tags": [
+        "farming",
+        "climate"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-10T19:55:46Z",
+      "updated": "2026-10-10T19:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 520,
+      "allowComments": true
+    },
+    {
+      "id": "old-town-square-car-free",
+      "title": "Valmora makes its old town square car-free",
+      "dek": "The city has turned its main square over to people, trees and a weekly market.",
+      "body": "<p>The medieval city of Valmora closed its main square to cars on Saturday, ending decades of traffic around the old town hall.</p><p>Forty trees have been planted and a weekly market will take over the former car park.</p><p>Shop owners were divided before the change; most now say footfall has risen during the trial months.</p>",
+      "section": "europe",
+      "tags": [
+        "cities",
+        "transport"
+      ],
+      "image": "images/news/full/old-town-square.webp",
+      "caption": "Valmora's old town hall.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-14T14:55:46Z",
+      "updated": "2026-10-14T14:55:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 2060,
+      "allowComments": true
+    },
+    {
+      "id": "alpine-pass-snow",
+      "title": "Early snow closes the high Alpine pass",
+      "dek": "Road crews say the pass may stay closed until the spring thaw.",
+      "body": "<p>Heavy snow closed the high pass between the northern valleys on Tuesday, a month earlier than usual.</p><p>Road crews cleared stranded cars overnight. The pass is likely to remain closed until April.</p><p>Rail operators have added extra carriages to the valley line while the road is shut.</p>",
+      "section": "europe",
+      "tags": [
+        "weather",
+        "travel"
+      ],
+      "image": "images/news/full/alpine-pass.webp",
+      "caption": "Snow on the high pass.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-12T16:55:46Z",
+      "updated": "2026-10-12T16:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 760,
+      "allowComments": true
+    },
+    {
+      "id": "night-trains-return",
+      "title": "Night trains return between three capitals",
+      "dek": "A new sleeper service links the north and south of the continent.",
+      "body": "<p>A new night train will connect three capital cities from December, with sleeper cabins, a dining car and space for bicycles.</p><p>The operator said bookings had been strong and that it would add a second weekly service in the summer.</p><p>Night trains have returned to several routes in recent years as travellers look for alternatives to short flights.</p>",
+      "section": "europe",
+      "tags": [
+        "rail",
+        "travel"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-10T04:55:46Z",
+      "updated": "2026-10-10T04:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 480,
+      "allowComments": true
+    },
+    {
+      "id": "lantern-festival-harbour",
+      "title": "Lantern festival lights up the harbour at Port Kesari",
+      "dek": "A hundred thousand lanterns were set on the water for the autumn festival.",
+      "body": "<p>The harbour at Port Kesari glowed on Friday night as a hundred thousand paper lanterns were floated on the water for the autumn festival.</p><p>Organisers switched to fully biodegradable lanterns this year and collected every one by boat the next morning.</p><p>The festival drew visitors from across the region and closed with fireworks over the old breakwater.</p>",
+      "section": "asia-pacific",
+      "tags": [
+        "festivals",
+        "culture"
+      ],
+      "image": "images/news/full/lantern-harbour.webp",
+      "caption": "Lanterns over Port Kesari.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-14T10:35:46Z",
+      "updated": "2026-10-14T10:35:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 2320,
+      "allowComments": true
+    },
+    {
+      "id": "coral-restoration",
+      "title": "Divers replant a reef one fragment at a time",
+      "dek": "A volunteer project has grown sixty thousand corals in five years.",
+      "body": "<p>A volunteer group on the island of Tamaru has replanted more than sixty thousand coral fragments on a reef damaged by storms.</p><p>Divers grow the corals on underwater frames before tying them to the reef. Surveys show fish numbers have doubled at the restored sites.</p><p>The project now trains divers from neighbouring islands.</p>",
+      "section": "asia-pacific",
+      "tags": [
+        "oceans",
+        "science"
+      ],
+      "image": "images/news/full/island-lagoon.webp",
+      "caption": "The reef at Tamaru from the air.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-12T13:35:46Z",
+      "updated": "2026-10-12T13:35:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 1250,
+      "allowComments": true
+    },
+    {
+      "id": "typhoon-season-ends",
+      "title": "A quieter typhoon season comes to an end",
+      "dek": "Forecasters recorded the fewest landfalls in fifteen years.",
+      "body": "<p>The regional weather office declared the end of the typhoon season on Monday, after the fewest landfalls in fifteen years.</p><p>Forecasters warned that quiet seasons are often followed by busier ones and urged towns to keep up their storm drills.</p><p>Fishing fleets said the calm months had helped after two difficult years.</p>",
+      "section": "asia-pacific",
+      "tags": [
+        "weather"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-09T12:15:46Z",
+      "updated": "2026-10-09T12:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 300,
+      "allowComments": true
+    },
+    {
+      "id": "desert-solar-road",
+      "title": "A solar road brings power to desert towns",
+      "dek": "Panels along a new highway now feed five towns that once relied on generators.",
+      "body": "<p>A new highway across the desert to the oasis town of Al Rimal is lined for eighty kilometres with solar panels that now power five towns.</p><p>The towns relied on diesel generators until last year. Shops now stay open later, and the main clinic has round-the-clock power.</p><p>Engineers say sand is the biggest challenge: the panels are cleaned by small robots every night.</p>",
+      "section": "middle-east-africa",
+      "tags": [
+        "energy",
+        "solar"
+      ],
+      "image": "images/news/full/desert-road.webp",
+      "caption": "The road to Al Rimal.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-14T07:15:46Z",
+      "updated": "2026-10-14T07:15:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 1890,
+      "allowComments": true
+    },
+    {
+      "id": "delta-farmers",
+      "title": "Delta farmers turn to floating gardens",
+      "dek": "Rafts of reeds and soil keep crops above the rising water.",
+      "body": "<p>Farmers in the river delta are growing vegetables on floating rafts made from reeds and soil, an old technique that is spreading fast.</p><p>The rafts rise with the floodwater and can be towed to market. Families say they now harvest through the wet season.</p><p>Agricultural schools have started teaching the method to students.</p>",
+      "section": "middle-east-africa",
+      "tags": [
+        "farming",
+        "climate"
+      ],
+      "image": "images/news/full/river-delta.webp",
+      "caption": "Channels of the river delta.",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-11T20:55:46Z",
+      "updated": "2026-10-11T20:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 690,
+      "allowComments": true
+    },
+    {
+      "id": "museum-reopens",
+      "title": "National museum reopens with a new gallery of maps",
+      "dek": "Centuries-old charts of the coast go on show for the first time.",
+      "body": "<p>The national museum reopened after a three-year renovation, with a new gallery of maps that have never been shown in public.</p><p>The oldest chart shows the coast as it was mapped by traders more than five hundred years ago.</p><p>Entry will be free for the first month.</p>",
+      "section": "middle-east-africa",
+      "tags": [
+        "museums",
+        "history"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "amara",
+      "status": "published",
+      "date": "2026-10-08T19:35:46Z",
+      "updated": "2026-10-08T19:35:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 350,
+      "allowComments": true
+    },
+    {
+      "id": "markets-rally-rates",
+      "title": "Markets rally as rate cut hopes grow",
+      "dek": "The Bay index closed at its highest level in eighteen months.",
+      "body": "<p>Shares rose for a fourth day on Thursday, lifting the Bay 100 index to its highest close in eighteen months.</p><p>Investors bet that the central bank will cut rates before the end of the year after inflation slowed for a third month.</p><p>Banks and builders led the gains. Oil companies fell as crude prices slipped.</p>",
+      "section": "markets",
+      "tags": [
+        "stocks",
+        "rates"
+      ],
+      "image": "images/news/full/trading-floor.webp",
+      "caption": "Screens on a trading floor.",
+      "author": "leo",
+      "status": "published",
+      "date": "2026-10-14T23:35:46Z",
+      "updated": "2026-10-14T23:35:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 3560,
+      "allowComments": true
+    },
+    {
+      "id": "bond-yields-fall",
+      "title": "Bond yields fall to a two-year low",
+      "dek": "Ten-year yields dropped after weaker factory figures.",
+      "body": "<p>Government bond yields fell to their lowest level in two years after factory output fell for a second month.</p><p>Traders said the figures had strengthened the case for lower rates. Mortgage lenders are expected to trim fixed rates next week.</p><p>The currency weakened slightly against its main trading partners.</p>",
+      "section": "markets",
+      "tags": [
+        "bonds",
+        "rates"
+      ],
+      "image": "images/news/full/bond-desk.webp",
+      "caption": "Bond prices on a dealer's screens.",
+      "author": "leo",
+      "status": "published",
+      "date": "2026-10-13T16:15:46Z",
+      "updated": "2026-10-13T16:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 980,
+      "allowComments": true
+    },
+    {
+      "id": "harbour-port-trade",
+      "title": "Port of Calder Bay reports record container traffic",
+      "dek": "The port handled more containers in September than in any month on record.",
+      "body": "<p>The Port of Calder Bay handled more containers last month than in any month since records began, its operator said.</p><p>New cranes on the east quay and a longer working day helped clear a backlog from the summer.</p><p>The port plans to add a rail link to the container terminal next year.</p>",
+      "section": "markets",
+      "tags": [
+        "trade",
+        "port"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "leo",
+      "status": "published",
+      "date": "2026-10-11T04:15:46Z",
+      "updated": "2026-10-11T04:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 450,
+      "allowComments": true
+    },
+    {
+      "id": "chip-plant-jobs",
+      "title": "New chip plant to bring 1,200 jobs to the bay",
+      "dek": "Construction starts next year on the province's first semiconductor factory.",
+      "body": "<p>A chipmaker will build the province's first semiconductor plant on the edge of Calder Bay, creating about twelve hundred jobs.</p><p>The company said it chose the site for its port, its technical college and its supply of clean water.</p><p>Construction will start next year. The college is already planning new courses for technicians.</p>",
+      "section": "tech",
+      "tags": [
+        "jobs",
+        "chips"
+      ],
+      "image": "images/news/full/server-hall.webp",
+      "caption": "Inside a data hall.",
+      "author": "priya",
+      "status": "published",
+      "date": "2026-10-14T17:15:46Z",
+      "updated": "2026-10-14T17:15:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 2740,
+      "allowComments": true
+    },
+    {
+      "id": "startup-lab-opens",
+      "title": "University opens a lab for student start-ups",
+      "dek": "Teams get desks, mentors and a small grant for their first year.",
+      "body": "<p>Calder Bay University opened a start-up lab on Wednesday, offering student teams a desk, a mentor and a small grant for their first year.</p><p>The first twelve teams are working on everything from farm sensors to a reading app for children.</p><p>The lab will hold a public demo day every spring.</p>",
+      "section": "tech",
+      "tags": [
+        "start-ups",
+        "university"
+      ],
+      "image": "images/news/full/night-lab.webp",
+      "caption": "The new student start-up lab.",
+      "author": "priya",
+      "status": "published",
+      "date": "2026-10-12T21:55:46Z",
+      "updated": "2026-10-12T21:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 820,
+      "allowComments": true
+    },
+    {
+      "id": "city-wifi",
+      "title": "Free public wifi reaches every library and square",
+      "dek": "The city finished the network two months ahead of schedule.",
+      "body": "<p>Free public wifi now covers every library, square and ferry terminal in Calder Bay, two months ahead of schedule.</p><p>The city said the network would never show adverts or sell data, and that usage would be reported each quarter.</p><p>Libraries have started free evening classes for people new to the internet.</p>",
+      "section": "tech",
+      "tags": [
+        "internet",
+        "city"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "priya",
+      "status": "published",
+      "date": "2026-10-09T22:15:46Z",
+      "updated": "2026-10-09T22:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 390,
+      "allowComments": true
+    },
+    {
+      "id": "cup-final-win",
+      "title": "Calder Bay win the cup in extra time",
+      "dek": "A late header from the captain settled a tense final in front of 40,000 fans.",
+      "body": "<p>Calder Bay FC won the provincial cup for the first time in nineteen years, beating Harrow Rovers 2–1 after extra time.</p><p>Captain Jonah Reyes headed the winner from a corner in the 114th minute, two minutes after Rovers had hit the bar.</p><p>Thousands of fans gathered at the harbour to welcome the team bus late into the night.</p>",
+      "section": "football",
+      "tags": [
+        "cup",
+        "final"
+      ],
+      "image": "images/news/full/cup-final.webp",
+      "caption": "The cup final under the lights.",
+      "author": "tomas",
+      "status": "published",
+      "date": "2026-10-15T00:15:46Z",
+      "updated": "2026-10-15T00:15:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 5120,
+      "allowComments": true
+    },
+    {
+      "id": "youth-academy",
+      "title": "Club academy opens its doors to girls' teams",
+      "dek": "Four new teams will train at the club's ground from next month.",
+      "body": "<p>Calder Bay FC's academy will add four girls' teams next month, with coaching at the club's training ground three evenings a week.</p><p>More than three hundred girls attended open trials over the summer.</p><p>The club said it hopes to field a senior women's side within three years.</p>",
+      "section": "football",
+      "tags": [
+        "academy",
+        "youth"
+      ],
+      "image": "images/news/full/training-ground.webp",
+      "caption": "The club's training ground.",
+      "author": "tomas",
+      "status": "published",
+      "date": "2026-10-13T12:55:46Z",
+      "updated": "2026-10-13T12:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 1010,
+      "allowComments": true
+    },
+    {
+      "id": "stadium-roof",
+      "title": "Stadium roof repairs finished before the derby",
+      "dek": "The east stand reopens at full capacity next weekend.",
+      "body": "<p>Repairs to the east stand roof are complete, and the stand will reopen at full capacity for next weekend's derby.</p><p>The roof was damaged in a spring storm. Season-ticket holders who were moved will get their usual seats back.</p><p>The club thanked fans for their patience.</p>",
+      "section": "football",
+      "tags": [
+        "stadium"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "sam",
+      "status": "published",
+      "date": "2026-10-10T18:15:46Z",
+      "updated": "2026-10-10T18:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 430,
+      "allowComments": true
+    },
+    {
+      "id": "marathon-record",
+      "title": "Course record falls at the city marathon",
+      "dek": "A local runner broke the record by forty seconds in cool morning conditions.",
+      "body": "<p>Local runner Sara Mendel broke the Calder Bay Marathon course record by forty seconds on Sunday, finishing in two hours and twenty-four minutes.</p><p>Cool, still weather helped a field of twelve thousand runners. Hundreds of volunteers handed out water along the harbour road.</p><p>“I grew up on this course,” Mendel said. “I knew every corner.”</p>",
+      "section": "running",
+      "tags": [
+        "marathon",
+        "record"
+      ],
+      "image": "images/news/full/city-marathon.webp",
+      "caption": "Runners on the harbour road.",
+      "author": "sam",
+      "status": "published",
+      "date": "2026-10-14T03:55:46Z",
+      "updated": "2026-10-14T03:55:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 2340,
+      "allowComments": true
+    },
+    {
+      "id": "track-renovation",
+      "title": "Public running track reopens with new surface",
+      "dek": "The track at Parkside is free to use at dawn and after school.",
+      "body": "<p>The public running track at Parkside reopened on Saturday with a new surface, lights and a small changing block.</p><p>The track will be free to use before 8am and after 4pm on weekdays, and all day at weekends.</p><p>Local clubs will run beginners' sessions on Tuesday evenings.</p>",
+      "section": "running",
+      "tags": [
+        "track",
+        "community"
+      ],
+      "image": "images/news/full/morning-track.webp",
+      "caption": "Parkside track at dawn.",
+      "author": "sam",
+      "status": "published",
+      "date": "2026-10-12T10:15:46Z",
+      "updated": "2026-10-12T10:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 640,
+      "allowComments": true
+    },
+    {
+      "id": "parkrun-anniversary",
+      "title": "Saturday park run celebrates its 500th event",
+      "dek": "More than nine thousand people have taken part since the first run.",
+      "body": "<p>The Saturday morning park run on the harbour path held its 500th event, with a cake at the finish line and a record turnout.</p><p>More than nine thousand people have taken part since the first run ten years ago.</p><p>Organisers are looking for more volunteers for the winter months.</p>",
+      "section": "running",
+      "tags": [
+        "community"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "sam",
+      "status": "published",
+      "date": "2026-10-09T13:55:46Z",
+      "updated": "2026-10-09T13:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 310,
+      "allowComments": true
+    },
+    {
+      "id": "regatta-preview",
+      "title": "Autumn regatta draws a record fleet",
+      "dek": "Ninety boats are entered for the three-day race around the bay.",
+      "body": "<p>Ninety boats have entered this year's autumn regatta, the largest fleet in the race's sixty-year history.</p><p>The three-day event starts on Friday with a race around the outer islands. Forecasters expect fresh winds.</p><p>Spectators can watch the starts from the North Pier.</p>",
+      "section": "sailing",
+      "tags": [
+        "regatta"
+      ],
+      "image": "images/news/full/regatta.webp",
+      "caption": "Boats at the regatta start.",
+      "author": "sam",
+      "status": "published",
+      "date": "2026-10-14T13:55:46Z",
+      "updated": "2026-10-14T13:55:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 1500,
+      "allowComments": true,
+      "video": "images/news/video/regatta-start.mp4",
+      "videoPoster": "images/news/video/regatta-start.webp",
+      "videoCaption": "Boats crowd the line at the regatta start."
+    },
+    {
+      "id": "harbour-race-result",
+      "title": "Young crew win the evening harbour race",
+      "dek": "A team of students beat the fleet in light winds.",
+      "body": "<p>A crew of university students won the Wednesday evening harbour race, the first student win in the series.</p><p>Light winds made for a slow race, and the students picked the best line along the shore.</p><p>The series continues every Wednesday until the end of the month.</p>",
+      "section": "sailing",
+      "tags": [
+        "harbour"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "sam",
+      "status": "published",
+      "date": "2026-10-12T05:15:46Z",
+      "updated": "2026-10-12T05:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 520,
+      "allowComments": true,
+      "video": "images/news/video/harbour-race-evening.mp4",
+      "videoPoster": "images/news/video/harbour-race-evening.webp",
+      "videoCaption": "The evening harbour race from the breakwater."
+    },
+    {
+      "id": "sailing-school",
+      "title": "Sailing school offers free lessons to every Year 6 pupil",
+      "dek": "Every eleven-year-old in the city will get a day on the water.",
+      "body": "<p>Every Year 6 pupil in Calder Bay will be offered a free day of sailing lessons next summer, the city sailing school announced.</p><p>The school is raising money for ten new training dinghies.</p><p>Instructors say a single day on the water is often enough to start a lifelong hobby.</p>",
+      "section": "sailing",
+      "tags": [
+        "schools",
+        "youth"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "sam",
+      "status": "published",
+      "date": "2026-10-09T02:15:46Z",
+      "updated": "2026-10-09T02:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 280,
+      "allowComments": true
+    },
+    {
+      "id": "opening-night-review",
+      "title": "An opening night to remember at the Harbour Theatre",
+      "dek": "The new production of a winter ghost story is spare, strange and very good.",
+      "body": "<p>The Harbour Theatre opened its season with a spare and haunting production of a winter ghost story, staged with little more than a single light.</p><p>The lead actor holds the stage alone for almost twenty minutes, and the audience barely moved.</p><p>The run continues until the end of November. Tickets for weekday matinees are still available.</p>",
+      "section": "arts",
+      "tags": [
+        "theatre",
+        "review"
+      ],
+      "image": "images/news/full/opening-night.webp",
+      "caption": "Opening night at the Harbour Theatre.",
+      "author": "mei",
+      "status": "published",
+      "date": "2026-10-14T08:55:46Z",
+      "updated": "2026-10-14T08:55:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 1420,
+      "allowComments": true
+    },
+    {
+      "id": "jazz-week",
+      "title": "Jazz week returns with forty free concerts",
+      "dek": "Bands will play in parks, ferries and the old customs house.",
+      "body": "<p>Jazz week returns next month with forty free concerts in parks, on ferries and in the old customs house.</p><p>The festival opens with a big band on the North Pier and closes with a late-night session at the library.</p><p>Organisers have added more afternoon shows for families.</p>",
+      "section": "arts",
+      "tags": [
+        "music",
+        "festivals"
+      ],
+      "image": "images/news/full/blue-stage.webp",
+      "caption": "A late set at jazz week.",
+      "author": "mei",
+      "status": "published",
+      "date": "2026-10-12T18:35:46Z",
+      "updated": "2026-10-12T18:35:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 770,
+      "allowComments": true
+    },
+    {
+      "id": "gallery-prize",
+      "title": "Painter of the harbour wins the city art prize",
+      "dek": "The winning series shows the harbour in every season.",
+      "body": "<p>Painter Lena Ostrow has won this year's city art prize for a series of twelve paintings of the harbour, one for each month.</p><p>The judges praised the series for its patience and its light.</p><p>The paintings will be shown at the city gallery until January.</p>",
+      "section": "arts",
+      "tags": [
+        "painting",
+        "awards"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "mei",
+      "status": "published",
+      "date": "2026-10-09T18:55:46Z",
+      "updated": "2026-10-09T18:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 360,
+      "allowComments": true
+    },
+    {
+      "id": "market-kitchen",
+      "title": "Inside the market kitchen that feeds a neighbourhood",
+      "dek": "Three cooks, one stove and two hundred lunches a day.",
+      "body": "<p>At the back of the covered market, three cooks serve about two hundred lunches a day from a single stove and a counter with eight stools.</p><p>The menu changes with whatever the stallholders have left over. Most dishes cost less than a ferry ticket.</p><p>“We cook for the people who work here first,” said cook Amira Haddad.</p>",
+      "section": "food",
+      "tags": [
+        "restaurants",
+        "markets"
+      ],
+      "image": "images/news/full/market-table.webp",
+      "caption": "Lunch at the market kitchen.",
+      "author": "mei",
+      "status": "published",
+      "date": "2026-10-13T22:55:46Z",
+      "updated": "2026-10-13T22:55:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 1730,
+      "allowComments": true
+    },
+    {
+      "id": "harvest-supper",
+      "title": "Harvest supper fills the long table on Mill Street",
+      "dek": "Two hundred neighbours shared one table down the middle of the road.",
+      "body": "<p>Mill Street closed to traffic on Saturday evening for a harvest supper at a single table that ran the length of the road.</p><p>Two hundred neighbours brought dishes, and local farms donated bread, apples and cheese.</p><p>Organisers hope to make it a yearly event.</p>",
+      "section": "food",
+      "tags": [
+        "community",
+        "festivals"
+      ],
+      "image": "images/news/full/harvest-supper.webp",
+      "caption": "The long table on Mill Street.",
+      "author": "mei",
+      "status": "published",
+      "date": "2026-10-12T00:15:46Z",
+      "updated": "2026-10-12T00:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 690,
+      "allowComments": true
+    },
+    {
+      "id": "oyster-season",
+      "title": "Oyster season opens on the north shore",
+      "dek": "Growers report a strong crop after a mild summer.",
+      "body": "<p>Oyster growers on the north shore opened the season this week and reported a strong crop after a mild summer.</p><p>The farm shops will open at weekends until March.</p><p>Growers asked visitors to stay off the oyster beds at low tide.</p>",
+      "section": "food",
+      "tags": [
+        "seafood"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "mei",
+      "status": "published",
+      "date": "2026-10-09T08:55:46Z",
+      "updated": "2026-10-09T08:55:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 300,
+      "allowComments": true
+    },
+    {
+      "id": "editorial-waterfront",
+      "title": "The waterfront plan is a promise. Now keep it.",
+      "dek": "The council has made a bold choice. The hard part starts now.",
+      "body": "<p>The council's vote on the waterfront is the most important decision the city has made in a generation. It deserves credit for making it.</p><p>But a plan is only a promise. The homes must be built on time, the affordable share must not shrink, and the ferry stop must not slide down the list.</p><p>We will be watching, and we hope our readers will too.</p>",
+      "section": "editorials",
+      "tags": [
+        "waterfront",
+        "editorial"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "ruth",
+      "status": "published",
+      "date": "2026-10-15T01:05:46Z",
+      "updated": "2026-10-15T01:05:46Z",
+      "breaking": false,
+      "front": true,
+      "views": 1860,
+      "allowComments": true
+    },
+    {
+      "id": "editorial-libraries",
+      "title": "Libraries are the city's best investment",
+      "dek": "The new library wing shows what public spaces can do.",
+      "body": "<p>The queue outside the new library wing on Monday morning said more than any report could.</p><p>Libraries are where students study, where job seekers apply, where older readers find company. They are cheap to run and hard to replace.</p><p>The city should keep their hours long and their doors open.</p>",
+      "section": "editorials",
+      "tags": [
+        "libraries",
+        "editorial"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "ruth",
+      "status": "published",
+      "date": "2026-10-13T09:35:46Z",
+      "updated": "2026-10-13T09:35:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 740,
+      "allowComments": true
+    },
+    {
+      "id": "editorial-bridge",
+      "title": "Night closures are a small price for a safe bridge",
+      "dek": "Six weeks of detours will save years of trouble.",
+      "body": "<p>Nobody enjoys a detour. But six weeks of night closures on the Bay Bridge are a small price for new cables on a span that carries forty thousand cars a day.</p><p>The transport office has planned this well. It should keep drivers informed every night until the work is done.</p>",
+      "section": "editorials",
+      "tags": [
+        "transport",
+        "editorial"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "nora",
+      "status": "published",
+      "date": "2026-10-11T14:15:46Z",
+      "updated": "2026-10-11T14:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 420,
+      "allowComments": true
+    },
+    {
+      "id": "letters-ferry",
+      "title": "Letters: the ferry stop should come first",
+      "dek": "Readers respond to the waterfront vote.",
+      "body": "<p>Sir — I welcome the waterfront plan, but the ferry stop must be built before the homes. Otherwise new residents will have no choice but to drive. — J. Moreau, North Pier</p><p>Sir — After thirty years of empty dockyards, I am simply glad something is happening. — P. Ansel, Old Town</p>",
+      "section": "letters",
+      "tags": [
+        "letters",
+        "waterfront"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "ruth",
+      "status": "published",
+      "date": "2026-10-14T15:35:46Z",
+      "updated": "2026-10-14T15:35:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 930,
+      "allowComments": true
+    },
+    {
+      "id": "letters-cup",
+      "title": "Letters: a night the harbour will not forget",
+      "dek": "Readers on the cup final celebrations.",
+      "body": "<p>Sir — I have supported this club for fifty years and have never seen the harbour like it. Thank you to the police and the bus drivers for their patience. — R. Teague, Eastside</p><p>Sir — Could the council keep the harbour lights on a little later on big nights? — M. Okoro, Quayside</p>",
+      "section": "letters",
+      "tags": [
+        "letters",
+        "football"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "ruth",
+      "status": "published",
+      "date": "2026-10-12T23:35:46Z",
+      "updated": "2026-10-12T23:35:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 520,
+      "allowComments": true
+    },
+    {
+      "id": "letters-libraries",
+      "title": "Letters: keep the libraries open late",
+      "dek": "Students and parents write in.",
+      "body": "<p>Sir — The late opening at the library is the only reason I can study after my shift. Please make it permanent. — T. Nguyen, Parkside</p>",
+      "section": "letters",
+      "tags": [
+        "letters",
+        "libraries"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "ruth",
+      "status": "published",
+      "date": "2026-10-10T08:15:46Z",
+      "updated": "2026-10-10T08:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 260,
+      "allowComments": true
+    },
+    {
+      "id": "ferry-timetable-review",
+      "title": "New ferry timetable drafted for the winter",
+      "dek": "A draft timetable adds early sailings from North Pier.",
+      "body": "<p>The ferry operator has drafted a winter timetable with two extra early sailings from North Pier.</p><p>The draft will go to the transport committee next week.</p>",
+      "section": "local",
+      "tags": [
+        "ferry",
+        "transport"
+      ],
+      "image": "images/news/full/coast-squall.webp",
+      "caption": "A squall off North Pier.",
+      "author": "dan",
+      "status": "draft",
+      "date": "2026-10-14T23:15:46Z",
+      "updated": "2026-10-14T23:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 0,
+      "allowComments": true
+    },
+    {
+      "id": "valley-elections-review",
+      "title": "Valley towns vote on a shared bus network",
+      "dek": "Five towns will decide whether to merge their bus services.",
+      "body": "<p>Voters in five valley towns will decide next month whether to merge their bus services into a single network.</p><p>Supporters say a shared network would mean more buses on the main roads; critics worry about the smallest villages.</p>",
+      "section": "europe",
+      "tags": [
+        "transport",
+        "elections"
+      ],
+      "image": "images/news/full/quiet-pines.webp",
+      "caption": "Pines above the valley towns.",
+      "author": "amara",
+      "status": "review",
+      "date": "2026-10-15T00:45:46Z",
+      "updated": "2026-10-15T00:45:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 0,
+      "allowComments": true
+    },
+    {
+      "id": "quarterly-results-review",
+      "title": "Harbour Bank profits rise on mortgage lending",
+      "dek": "Third-quarter profits rose by eight percent.",
+      "body": "<p>Harbour Bank reported an eight percent rise in third-quarter profits, helped by a surge in new mortgages.</p><p>The bank said it expected lending to slow if rates stay high into next year.</p>",
+      "section": "markets",
+      "tags": [
+        "banks",
+        "results"
+      ],
+      "image": "",
+      "caption": "",
+      "author": "leo",
+      "status": "review",
+      "date": "2026-10-15T00:05:46Z",
+      "updated": "2026-10-15T00:05:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 0,
+      "allowComments": true
+    },
+    {
+      "id": "regatta-day-one",
+      "title": "Regatta day one: fresh winds and a close finish",
+      "dek": "The opening race around the outer islands.",
+      "body": "<p>The autumn regatta opened in fresh winds with a close finish at the outer islands.</p><p>Full results will be published after the jury meets.</p>",
+      "section": "sailing",
+      "tags": [
+        "regatta"
+      ],
+      "image": "images/news/full/regatta.webp",
+      "caption": "Boats at the regatta start.",
+      "author": "sam",
+      "status": "scheduled",
+      "date": "2026-10-15T04:35:46Z",
+      "updated": "2026-10-15T01:15:46Z",
+      "breaking": false,
+      "front": false,
+      "views": 0,
+      "allowComments": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "c001",
+      "story": "council-approves-waterfront-plan",
+      "name": "Grace H.",
+      "text": "About time. I've walked past those empty docks every day for twenty years.",
+      "when": "2026-10-15T01:15:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c002",
+      "story": "council-approves-waterfront-plan",
+      "name": "Tomas R.",
+      "text": "Hoping the ferry stop doesn't get delayed. That's the part that matters for Northside.",
+      "when": "2026-10-15T01:20:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c003",
+      "story": "council-approves-waterfront-plan",
+      "name": "Lin",
+      "text": "Great coverage of the session, thank you for staying up late for it.",
+      "when": "2026-10-15T01:25:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c004",
+      "story": "council-approves-waterfront-plan",
+      "name": "Walt",
+      "text": "Seven to four is not exactly a mandate.",
+      "when": "2026-10-15T01:29:46Z",
+      "status": "pending"
+    },
+    {
+      "id": "c005",
+      "story": "cup-final-win",
+      "name": "Bay Blue",
+      "text": "What a night. Still can't believe that header.",
+      "when": "2026-10-15T00:35:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c006",
+      "story": "cup-final-win",
+      "name": "Sophie K.",
+      "text": "My grandad waited nineteen years for this. He cried on the harbour wall.",
+      "when": "2026-10-15T00:55:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c007",
+      "story": "cup-final-win",
+      "name": "Rob",
+      "text": "Rovers were unlucky with the bar but we deserved it.",
+      "when": "2026-10-15T01:23:46Z",
+      "status": "pending"
+    },
+    {
+      "id": "c008",
+      "story": "markets-rally-rates",
+      "name": "J. Patel",
+      "text": "Builders up again, interesting to see if mortgage rates follow.",
+      "when": "2026-10-15T00:25:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c009",
+      "story": "new-library-wing",
+      "name": "Ana",
+      "text": "The quiet floor is wonderful. Went last night until eleven.",
+      "when": "2026-10-14T20:35:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c010",
+      "story": "new-library-wing",
+      "name": "Marcus",
+      "text": "Please add more power sockets on the east side!",
+      "when": "2026-10-14T22:15:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c011",
+      "story": "andes-rail-link",
+      "name": "Valeria",
+      "text": "I took this line as a child. So happy it is back.",
+      "when": "2026-10-14T23:05:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c012",
+      "story": "opening-night-review",
+      "name": "Theatre fan",
+      "text": "Saw it on Friday. That twenty-minute monologue is something else.",
+      "when": "2026-10-14T15:35:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c013",
+      "story": "market-kitchen",
+      "name": "Ellie",
+      "text": "Best lunch in town, no question.",
+      "when": "2026-10-14T10:35:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c014",
+      "story": "editorial-waterfront",
+      "name": "D. Shaw",
+      "text": "Agree completely. We need someone to keep the council honest.",
+      "when": "2026-10-15T01:17:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c015",
+      "story": "marathon-record",
+      "name": "Kate",
+      "text": "Was there at the finish, the crowd went wild!",
+      "when": "2026-10-14T07:15:46Z",
+      "status": "approved"
+    },
+    {
+      "id": "c016",
+      "story": "chip-plant-jobs",
+      "name": "Owen P.",
+      "text": "Will the college courses be open to adults retraining?",
+      "when": "2026-10-14T20:35:46Z",
+      "status": "pending"
+    },
+    {
+      "id": "c017",
+      "story": "lantern-festival-harbour",
+      "name": "Mira",
+      "text": "Good to hear they collected every lantern.",
+      "when": "2026-10-14T13:55:46Z",
+      "status": "approved"
+    }
+  ],
+  "media": [
+    {
+      "id": "council-hall",
+      "full": "images/news/full/council-hall.webp",
+      "thumb": "images/news/thumbs/council-hall.webp",
+      "title": "City hall on Harbour Square.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:35:46Z"
+    },
+    {
+      "id": "bay-bridge",
+      "full": "images/news/full/bay-bridge.webp",
+      "thumb": "images/news/thumbs/bay-bridge.webp",
+      "title": "The Bay Bridge at dusk.",
+      "credit": "SkyLite Post",
+      "w": 1600,
+      "h": 686,
+      "by": "nora",
+      "when": "2026-10-12T01:34:46Z"
+    },
+    {
+      "id": "harbour-night",
+      "full": "images/news/full/harbour-night.webp",
+      "thumb": "images/news/thumbs/harbour-night.webp",
+      "title": "The old quay after dark.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:33:46Z"
+    },
+    {
+      "id": "assembly-dome",
+      "full": "images/news/full/assembly-dome.webp",
+      "thumb": "images/news/thumbs/assembly-dome.webp",
+      "title": "The provincial assembly building.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:32:46Z"
+    },
+    {
+      "id": "assembly-dusk",
+      "full": "images/news/full/assembly-dusk.webp",
+      "thumb": "images/news/thumbs/assembly-dusk.webp",
+      "title": "Supporters gather outside the assembly.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:31:46Z"
+    },
+    {
+      "id": "library-stacks",
+      "full": "images/news/full/library-stacks.webp",
+      "thumb": "images/news/thumbs/library-stacks.webp",
+      "title": "The stacks in the new east wing.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:30:46Z"
+    },
+    {
+      "id": "reading-room",
+      "full": "images/news/full/reading-room.webp",
+      "thumb": "images/news/thumbs/reading-room.webp",
+      "title": "The quiet floor stays open until midnight.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:29:46Z"
+    },
+    {
+      "id": "andes-dawn",
+      "full": "images/news/full/andes-dawn.webp",
+      "thumb": "images/news/thumbs/andes-dawn.webp",
+      "title": "Dawn over the high valleys.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:28:46Z"
+    },
+    {
+      "id": "river-city",
+      "full": "images/news/full/river-city.webp",
+      "thumb": "images/news/thumbs/river-city.webp",
+      "title": "Puerto Selva's riverside at night.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:27:46Z"
+    },
+    {
+      "id": "old-town-square",
+      "full": "images/news/full/old-town-square.webp",
+      "thumb": "images/news/thumbs/old-town-square.webp",
+      "title": "Valmora's old town hall.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:26:46Z"
+    },
+    {
+      "id": "alpine-pass",
+      "full": "images/news/full/alpine-pass.webp",
+      "thumb": "images/news/thumbs/alpine-pass.webp",
+      "title": "Snow on the high pass.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:25:46Z"
+    },
+    {
+      "id": "lantern-harbour",
+      "full": "images/news/full/lantern-harbour.webp",
+      "thumb": "images/news/thumbs/lantern-harbour.webp",
+      "title": "Lanterns over Port Kesari.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:24:46Z"
+    },
+    {
+      "id": "island-lagoon",
+      "full": "images/news/full/island-lagoon.webp",
+      "thumb": "images/news/thumbs/island-lagoon.webp",
+      "title": "The reef at Tamaru from the air.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:23:46Z"
+    },
+    {
+      "id": "desert-road",
+      "full": "images/news/full/desert-road.webp",
+      "thumb": "images/news/thumbs/desert-road.webp",
+      "title": "The road to Al Rimal.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:22:46Z"
+    },
+    {
+      "id": "river-delta",
+      "full": "images/news/full/river-delta.webp",
+      "thumb": "images/news/thumbs/river-delta.webp",
+      "title": "Channels of the river delta.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:21:46Z"
+    },
+    {
+      "id": "trading-floor",
+      "full": "images/news/full/trading-floor.webp",
+      "thumb": "images/news/thumbs/trading-floor.webp",
+      "title": "Screens on a trading floor.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:20:46Z"
+    },
+    {
+      "id": "bond-desk",
+      "full": "images/news/full/bond-desk.webp",
+      "thumb": "images/news/thumbs/bond-desk.webp",
+      "title": "Bond prices on a dealer's screens.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:19:46Z"
+    },
+    {
+      "id": "night-lab",
+      "full": "images/news/full/night-lab.webp",
+      "thumb": "images/news/thumbs/night-lab.webp",
+      "title": "The new student start-up lab.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:18:46Z"
+    },
+    {
+      "id": "server-hall",
+      "full": "images/news/full/server-hall.webp",
+      "thumb": "images/news/thumbs/server-hall.webp",
+      "title": "Inside a data hall.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:17:46Z"
+    },
+    {
+      "id": "cup-final",
+      "full": "images/news/full/cup-final.webp",
+      "thumb": "images/news/thumbs/cup-final.webp",
+      "title": "The cup final under the lights.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:16:46Z"
+    },
+    {
+      "id": "training-ground",
+      "full": "images/news/full/training-ground.webp",
+      "thumb": "images/news/thumbs/training-ground.webp",
+      "title": "The club's training ground.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:15:46Z"
+    },
+    {
+      "id": "morning-track",
+      "full": "images/news/full/morning-track.webp",
+      "thumb": "images/news/thumbs/morning-track.webp",
+      "title": "Parkside track at dawn.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:14:46Z"
+    },
+    {
+      "id": "city-marathon",
+      "full": "images/news/full/city-marathon.webp",
+      "thumb": "images/news/thumbs/city-marathon.webp",
+      "title": "Runners on the harbour road.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:13:46Z"
+    },
+    {
+      "id": "regatta",
+      "full": "images/news/full/regatta.webp",
+      "thumb": "images/news/thumbs/regatta.webp",
+      "title": "Boats at the regatta start.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:12:46Z"
+    },
+    {
+      "id": "harbour-race",
+      "full": "images/news/full/harbour-race.webp",
+      "thumb": "images/news/thumbs/harbour-race.webp",
+      "title": "The evening harbour race.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:11:46Z"
+    },
+    {
+      "id": "opening-night",
+      "full": "images/news/full/opening-night.webp",
+      "thumb": "images/news/thumbs/opening-night.webp",
+      "title": "Opening night at the Harbour Theatre.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:10:46Z"
+    },
+    {
+      "id": "blue-stage",
+      "full": "images/news/full/blue-stage.webp",
+      "thumb": "images/news/thumbs/blue-stage.webp",
+      "title": "A late set at jazz week.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:09:46Z"
+    },
+    {
+      "id": "market-table",
+      "full": "images/news/full/market-table.webp",
+      "thumb": "images/news/thumbs/market-table.webp",
+      "title": "Lunch at the market kitchen.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:08:46Z"
+    },
+    {
+      "id": "harvest-supper",
+      "full": "images/news/full/harvest-supper.webp",
+      "thumb": "images/news/thumbs/harvest-supper.webp",
+      "title": "The long table on Mill Street.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:07:46Z"
+    },
+    {
+      "id": "quiet-pines",
+      "full": "images/news/full/quiet-pines.webp",
+      "thumb": "images/news/thumbs/quiet-pines.webp",
+      "title": "Pines above the valley towns.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:06:46Z"
+    },
+    {
+      "id": "coast-squall",
+      "full": "images/news/full/coast-squall.webp",
+      "thumb": "images/news/thumbs/coast-squall.webp",
+      "title": "A squall off North Pier.",
+      "credit": "SkyLite Post",
+      "w": 1500,
+      "h": 1000,
+      "by": "nora",
+      "when": "2026-10-12T01:05:46Z"
+    },
+    {
+      "id": "newsroom",
+      "full": "images/news/full/newsroom.webp",
+      "thumb": "images/news/thumbs/newsroom.webp",
+      "title": "The SkyLite Post newsroom.",
+      "credit": "SkyLite Post",
+      "w": 1600,
+      "h": 686,
+      "by": "nora",
+      "when": "2026-10-12T01:04:46Z"
+    },
+    {
+      "id": "regatta-start",
+      "kind": "video",
+      "full": "images/news/video/regatta-start.mp4",
+      "thumb": "images/news/video/regatta-start.webp",
+      "title": "Boats crowd the line at the regatta start.",
+      "credit": "SkyLite Post",
+      "w": 1280,
+      "h": 720,
+      "seconds": 8,
+      "by": "sam",
+      "when": "2026-10-14T01:35:46Z"
+    },
+    {
+      "id": "harbour-race-evening",
+      "kind": "video",
+      "full": "images/news/video/harbour-race-evening.mp4",
+      "thumb": "images/news/video/harbour-race-evening.webp",
+      "title": "The evening harbour race from the breakwater.",
+      "credit": "SkyLite Post",
+      "w": 1280,
+      "h": 720,
+      "seconds": 8,
+      "by": "sam",
+      "when": "2026-10-14T01:34:46Z"
+    }
+  ],
+  "subscribers": [],
+  "anchor": "2026-10-15T01:35:46Z"
+}

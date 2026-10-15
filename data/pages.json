@@ -1,0 +1,385 @@
+{
+  "home": [
+    {
+      "id": "m1",
+      "style": "ticker",
+      "title": "Latest",
+      "source": "all",
+      "count": 8,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m2",
+      "style": "lead",
+      "title": "",
+      "source": "front",
+      "count": 4,
+      "pin": "council-approves-waterfront-plan",
+      "text": ""
+    },
+    {
+      "id": "m3",
+      "style": "rundown",
+      "title": "Top stories",
+      "source": "front",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m4",
+      "style": "opinion",
+      "title": "Opinion",
+      "source": "d:opinion",
+      "count": 3,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m5",
+      "style": "split",
+      "title": "World",
+      "source": "d:world",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m6",
+      "style": "duo",
+      "title": "Business",
+      "source": "d:business",
+      "count": 2,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m7",
+      "style": "mostread",
+      "title": "Most read",
+      "source": "all",
+      "count": 5,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m8",
+      "style": "leadwide",
+      "title": "Sports",
+      "source": "d:sports",
+      "count": 1,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m9",
+      "style": "rundown",
+      "title": "More sports",
+      "source": "d:sports",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m10",
+      "style": "strip",
+      "title": "Culture",
+      "source": "d:culture",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m11",
+      "style": "briefs",
+      "title": "In brief",
+      "source": "all",
+      "count": 6,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m12",
+      "style": "newsletter",
+      "title": "The Morning Post",
+      "source": "",
+      "count": 0,
+      "pin": "",
+      "text": "One email at 7am with the stories that matter to Calder Bay. Free, and easy to leave."
+    },
+    {
+      "id": "m13",
+      "style": "follow",
+      "title": "Follow the Post",
+      "source": "",
+      "count": 0,
+      "pin": "",
+      "text": "Breaking news, photos and the day's front page."
+    }
+  ],
+  "news": [
+    {
+      "id": "m14",
+      "style": "lead",
+      "title": "",
+      "source": "d:news",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m15",
+      "style": "rundown",
+      "title": "Local",
+      "source": "s:local",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m16",
+      "style": "split",
+      "title": "Politics",
+      "source": "s:politics",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m17",
+      "style": "duo",
+      "title": "Education",
+      "source": "s:education",
+      "count": 2,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m18",
+      "style": "mostread",
+      "title": "Most read in News",
+      "source": "d:news",
+      "count": 5,
+      "pin": "",
+      "text": ""
+    }
+  ],
+  "world": [
+    {
+      "id": "m19",
+      "style": "leadwide",
+      "title": "",
+      "source": "d:world",
+      "count": 1,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m20",
+      "style": "rundown",
+      "title": "Around the world",
+      "source": "d:world",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m21",
+      "style": "split",
+      "title": "Americas",
+      "source": "s:americas",
+      "count": 3,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m22",
+      "style": "spotlight",
+      "title": "Europe",
+      "source": "s:europe",
+      "count": 1,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m23",
+      "style": "duo",
+      "title": "Asia-Pacific",
+      "source": "s:asia-pacific",
+      "count": 2,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m24",
+      "style": "briefs",
+      "title": "Middle East & Africa",
+      "source": "s:middle-east-africa",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    }
+  ],
+  "business": [
+    {
+      "id": "m25",
+      "style": "ticker",
+      "title": "Markets",
+      "source": "d:business",
+      "count": 6,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m26",
+      "style": "lead",
+      "title": "",
+      "source": "d:business",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m27",
+      "style": "duo",
+      "title": "Tech",
+      "source": "s:tech",
+      "count": 2,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m28",
+      "style": "briefs",
+      "title": "Business in brief",
+      "source": "d:business",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m29",
+      "style": "newsletter",
+      "title": "Markets at 6",
+      "source": "",
+      "count": 0,
+      "pin": "",
+      "text": "The day's markets in five minutes, every weekday evening."
+    }
+  ],
+  "sports": [
+    {
+      "id": "m30",
+      "style": "leadwide",
+      "title": "",
+      "source": "d:sports",
+      "count": 1,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m31",
+      "style": "rundown",
+      "title": "Football",
+      "source": "s:football",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m32",
+      "style": "spotlight",
+      "title": "Running",
+      "source": "s:running",
+      "count": 1,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m33",
+      "style": "strip",
+      "title": "Sailing",
+      "source": "s:sailing",
+      "count": 4,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m34",
+      "style": "mostread",
+      "title": "Most read in Sports",
+      "source": "d:sports",
+      "count": 5,
+      "pin": "",
+      "text": ""
+    }
+  ],
+  "culture": [
+    {
+      "id": "m35",
+      "style": "lead",
+      "title": "",
+      "source": "d:culture",
+      "count": 3,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m36",
+      "style": "duo",
+      "title": "Arts",
+      "source": "s:arts",
+      "count": 2,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m37",
+      "style": "split",
+      "title": "Food",
+      "source": "s:food",
+      "count": 3,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m38",
+      "style": "follow",
+      "title": "Follow Culture",
+      "source": "",
+      "count": 0,
+      "pin": "",
+      "text": "Reviews and recipes in your feed."
+    }
+  ],
+  "opinion": [
+    {
+      "id": "m39",
+      "style": "opinion",
+      "title": "Editorials",
+      "source": "s:editorials",
+      "count": 3,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m40",
+      "style": "opinion",
+      "title": "Letters",
+      "source": "s:letters",
+      "count": 3,
+      "pin": "",
+      "text": ""
+    },
+    {
+      "id": "m41",
+      "style": "notice",
+      "title": "Write to the editor",
+      "source": "",
+      "count": 0,
+      "pin": "",
+      "text": "Letters of up to 250 words can be sent to letters@skylitepost.example. Please include your name and neighbourhood. We may edit letters for length."
+    }
+  ]
+}

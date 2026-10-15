@@ -1,0 +1,36 @@
+<div class="sr-site" id="sr-site" data-page="Search" data-theme="{plhd_theme}" style="{plhd_style}">
+<header class="sr-top">
+    <div class="sr-bar"><div class="sr-wrap sr-bar-in">
+        <time class="sr-today" id="sr-today" datetime="{plhd_now}" data-t="today">{plhd_today}</time>
+        <div class="sr-util"><a href="About">About</a><a href="Search">Search</a><a href="AdminLogin">Newsroom sign in</a>
+        <button type="button" class="sr-ibtn sr-theme" aria-label="Light or dark" title="Light or dark" onclick="SearchJs.toggleTheme()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg></button></div>
+    </div></div>
+    <div class="sr-wrap sr-mast">
+        <button type="button" class="sr-ibtn sr-burger" aria-label="Sections" onclick="SearchJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="sr-brand" href="Home" id="sr-brand">{plhd_name}</a>
+        <a class="sr-ibtn sr-msearch" href="Search" aria-label="Search"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></a>
+        <p class="sr-tagline" id="sr-tagline">{plhd_tagline}</p>
+    </div>
+    <nav class="sr-desks" aria-label="Sections"><div class="sr-wrap sr-desks-in" id="sr-desks">{plhd_nav}</div></nav>
+    <div id="sr-subnav">{plhd_subnav}</div>
+</header>
+<div class="sr-breaking" id="sr-breaking">{plhd_breaking}</div>
+<div class="sr-demo-bar" id="sr-demo-bar"></div>
+<aside class="sr-drawer" id="sr-nav" aria-label="All sections">
+    <div class="sr-dr-top"><b>Sections</b><button type="button" class="sr-ibtn" aria-label="Close" onclick="SearchJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <form class="sr-dr-search" action="Search" method="get" role="search"><label class="sr-sr" for="sr-dq">Search</label><input type="search" id="sr-dq" name="q" placeholder="Search the Post" maxlength="80"></form>
+    <div class="sr-dr-list" id="sr-drawer">{plhd_drawer}</div>
+</aside>
+<div class="sr-scrim" id="sr-scrim" onclick="SearchJs.closeNav()"></div>
+<main class="sr-main" id="sr-main">{plhd_main}</main>
+<footer class="sr-foot">
+    <div class="sr-wrap">
+        <div class="sr-foot-top"><a class="sr-fbrand" href="Home" id="sr-fname">{plhd_name}</a><p id="sr-ftag">{plhd_tagline}</p></div>
+        <div class="sr-fdesks" id="sr-fdesks">{plhd_footdesks}</div>
+        <div class="sr-flinks"><a href="About">About the Post</a><a href="Search">Search</a><a href="About#contact">Contact</a><a href="AdminLogin">Newsroom sign in</a></div>
+        <div class="sr-foot-soc" id="sr-foot-soc">{plhd_social}</div>
+        <p class="sr-copy">&copy; 2026 <span id="sr-cname">{plhd_name}</span> &middot; A fictional newspaper built with the SkyNet Framework. Every story, place and person is invented.</p>
+    </div>
+</footer>
+<div class="sr-toast" id="sr-toast" role="status" aria-live="polite"></div>
+</div>

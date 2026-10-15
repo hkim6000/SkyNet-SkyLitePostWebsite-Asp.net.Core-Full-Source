@@ -1,0 +1,36 @@
+<div class="hm-site" id="hm-site" data-page="Home" data-theme="{plhd_theme}" style="{plhd_style}">
+<header class="hm-top">
+    <div class="hm-bar"><div class="hm-wrap hm-bar-in">
+        <time class="hm-today" id="hm-today" datetime="{plhd_now}" data-t="today">{plhd_today}</time>
+        <div class="hm-util"><a href="About">About</a><a href="Search">Search</a><a href="AdminLogin">Newsroom sign in</a>
+        <button type="button" class="hm-ibtn hm-theme" aria-label="Light or dark" title="Light or dark" onclick="HomeJs.toggleTheme()"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a7 7 0 1 0 10.5 10.5z"/></svg></button></div>
+    </div></div>
+    <div class="hm-wrap hm-mast">
+        <button type="button" class="hm-ibtn hm-burger" aria-label="Sections" onclick="HomeJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="hm-brand" href="Home" id="hm-brand">{plhd_name}</a>
+        <a class="hm-ibtn hm-msearch" href="Search" aria-label="Search"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></a>
+        <p class="hm-tagline" id="hm-tagline">{plhd_tagline}</p>
+    </div>
+    <nav class="hm-desks" aria-label="Sections"><div class="hm-wrap hm-desks-in" id="hm-desks">{plhd_nav}</div></nav>
+    <div id="hm-subnav">{plhd_subnav}</div>
+</header>
+<div class="hm-breaking" id="hm-breaking">{plhd_breaking}</div>
+<div class="hm-demo-bar" id="hm-demo-bar"></div>
+<aside class="hm-drawer" id="hm-nav" aria-label="All sections">
+    <div class="hm-dr-top"><b>Sections</b><button type="button" class="hm-ibtn" aria-label="Close" onclick="HomeJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <form class="hm-dr-search" action="Search" method="get" role="search"><label class="hm-sr" for="hm-dq">Search</label><input type="search" id="hm-dq" name="q" placeholder="Search the Post" maxlength="80"></form>
+    <div class="hm-dr-list" id="hm-drawer">{plhd_drawer}</div>
+</aside>
+<div class="hm-scrim" id="hm-scrim" onclick="HomeJs.closeNav()"></div>
+<main class="hm-main" id="hm-main">{plhd_main}</main>
+<footer class="hm-foot">
+    <div class="hm-wrap">
+        <div class="hm-foot-top"><a class="hm-fbrand" href="Home" id="hm-fname">{plhd_name}</a><p id="hm-ftag">{plhd_tagline}</p></div>
+        <div class="hm-fdesks" id="hm-fdesks">{plhd_footdesks}</div>
+        <div class="hm-flinks"><a href="About">About the Post</a><a href="Search">Search</a><a href="About#contact">Contact</a><a href="AdminLogin">Newsroom sign in</a></div>
+        <div class="hm-foot-soc" id="hm-foot-soc">{plhd_social}</div>
+        <p class="hm-copy">&copy; 2026 <span id="hm-cname">{plhd_name}</span> &middot; A fictional newspaper built with the SkyNet Framework. Every story, place and person is invented.</p>
+    </div>
+</footer>
+<div class="hm-toast" id="hm-toast" role="status" aria-live="polite"></div>
+</div>

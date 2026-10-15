@@ -1,0 +1,72 @@
+[
+  {
+    "when": "2026-10-14T23:56:41Z",
+    "user": "nora",
+    "action": "page",
+    "target": "home",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T23:51:41Z",
+    "user": "sam",
+    "action": "schedule",
+    "target": "regatta-day-one",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T23:45:41Z",
+    "user": "ruth",
+    "action": "publish",
+    "target": "editorial-waterfront",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T23:40:41Z",
+    "user": "nora",
+    "action": "publish",
+    "target": "council-approves-waterfront-plan",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T23:24:41Z",
+    "user": "amara",
+    "action": "submit",
+    "target": "valley-elections-review",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T22:54:41Z",
+    "user": "sam",
+    "action": "publish",
+    "target": "cup-final-win",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T22:49:41Z",
+    "user": "leo",
+    "action": "submit",
+    "target": "quarterly-results-review",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T22:48:41Z",
+    "user": "leo",
+    "action": "publish",
+    "target": "quarterly-results-review",
+    "ok": false
+  },
+  {
+    "when": "2026-10-14T22:41:41Z",
+    "user": "tomas",
+    "action": "submit",
+    "target": "cup-final-win",
+    "ok": true
+  },
+  {
+    "when": "2026-10-14T19:16:41Z",
+    "user": "owen",
+    "action": "page",
+    "target": "news",
+    "ok": true
+  }
+]

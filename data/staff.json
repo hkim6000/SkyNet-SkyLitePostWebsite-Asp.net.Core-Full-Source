@@ -1,0 +1,182 @@
+[
+  {
+    "id": "nora",
+    "login": "nora",
+    "name": "Nora Whitfield",
+    "title": "Editor-in-chief",
+    "dept": "news",
+    "bio": "Nora has led the Post's newsroom for six years. Before that she covered the harbour and the provincial assembly.",
+    "email": "nora@skylitepost.example",
+    "admin": true,
+    "frontPage": true,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$5uRwuumbup5BPSzjfyvtTQ==$O26piqz9uRcT1BbdfGrMW5l7erVHABrTQ8OhCcGzRok=",
+    "perms": {}
+  },
+  {
+    "id": "owen",
+    "login": "owen",
+    "name": "Owen Marsh",
+    "title": "News editor",
+    "dept": "news",
+    "bio": "Owen runs the news desk and covers city hall.",
+    "email": "owen@skylitepost.example",
+    "admin": false,
+    "frontPage": true,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$/SClgAc3y0MgRTJRr3napw==$aB0kEWcc+yuQOrsLEsDD7dAgQG2wM1Nr89Q0yDfyFbs=",
+    "perms": {
+      "local": "P",
+      "politics": "P",
+      "education": "P"
+    }
+  },
+  {
+    "id": "dan",
+    "login": "dan",
+    "name": "Daniel Okafor",
+    "title": "City reporter",
+    "dept": "news",
+    "bio": "Daniel covers transport, housing and the neighbourhoods of Calder Bay.",
+    "email": "dan@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$mDG3yN9VAT7XWOIUzc6YIg==$0iTq4mAd/6ff1mmuMIyq8fz/uywdvUGrtHB9ccQsyNM=",
+    "perms": {
+      "local": "VU",
+      "politics": "VU",
+      "education": "VU"
+    }
+  },
+  {
+    "id": "amara",
+    "login": "amara",
+    "name": "Amara Quist",
+    "title": "World desk",
+    "dept": "world",
+    "bio": "Amara edits the Post's world pages and writes about cities, travel and climate.",
+    "email": "amara@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$kodCPo0ApkuJLNwPxoB96Q==$f56WxnGEr5YfwFwvI2zmWegcZ2GUP6HEAU3AREBa60I=",
+    "perms": {
+      "americas": "VUE",
+      "europe": "VUE",
+      "asia-pacific": "VUE",
+      "middle-east-africa": "VUE"
+    }
+  },
+  {
+    "id": "leo",
+    "login": "leo",
+    "name": "Leo Brandt",
+    "title": "Business reporter",
+    "dept": "business",
+    "bio": "Leo covers markets, banks and the port.",
+    "email": "leo@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$AgbMSCWmZLSSrE/F4IVXOA==$230rOHm5bYIlEWIjYgmKPX9+RpQRevWGi0Qgzfg9sPU=",
+    "perms": {
+      "markets": "VU",
+      "tech": "VU"
+    }
+  },
+  {
+    "id": "priya",
+    "login": "priya",
+    "name": "Priya Raman",
+    "title": "Technology reporter",
+    "dept": "business",
+    "bio": "Priya writes about technology, start-ups and the people who build them.",
+    "email": "priya@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$WYrprGzdD89X1GZDTUPrVw==$PrxgsleoRGNGtRG5R5iI0z0k7kBvGZ56ujKpTFBaXRo=",
+    "perms": {
+      "tech": "VU"
+    }
+  },
+  {
+    "id": "sam",
+    "login": "sam",
+    "name": "Sam Okoye",
+    "title": "Sports editor",
+    "dept": "sports",
+    "bio": "Sam edits the sports pages and has never missed a regatta.",
+    "email": "sam@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$v6bRlzc86nnr8MlUTtlolA==$OOsUaBCVrmr/P5xaWio7hP9x24P2XZ5LWJiE+GRO/0o=",
+    "perms": {
+      "football": "P",
+      "running": "P",
+      "sailing": "P"
+    }
+  },
+  {
+    "id": "tomas",
+    "login": "tomas",
+    "name": "Tomas Vale",
+    "title": "Football writer",
+    "dept": "sports",
+    "bio": "Tomas has followed Calder Bay FC home and away for a decade.",
+    "email": "tomas@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$3iA09Iq5Cwp8O7Yx2KU+gQ==$JUJtrW+puKSDaNUOlxqFBYs9H/ymOLC1I1frplrOzI4=",
+    "perms": {
+      "football": "VU"
+    }
+  },
+  {
+    "id": "mei",
+    "login": "mei",
+    "name": "Mei Lindgren",
+    "title": "Culture editor",
+    "dept": "culture",
+    "bio": "Mei reviews theatre and music and edits the food pages.",
+    "email": "mei@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$vbPMa9BNIqwxHSGLkMbWCQ==$NAtIqPnwxO3o+tV+apGLFX58QN+7q6pukl7Y8p2Sm5A=",
+    "perms": {
+      "arts": "P",
+      "food": "P"
+    }
+  },
+  {
+    "id": "ruth",
+    "login": "ruth",
+    "name": "Ruth Adeyemi",
+    "title": "Opinion editor",
+    "dept": "opinion",
+    "bio": "Ruth edits the editorials and the letters page.",
+    "email": "ruth@skylitepost.example",
+    "admin": false,
+    "frontPage": false,
+    "active": true,
+    "demo": true,
+    "hash": "pbkdf2$100000$Fa+etfetwS63CjxKOREzOw==$hL3xfoUFPEw8OUXa0PiJwoQfZmY/xaY0FxXRPQYsAhM=",
+    "perms": {
+      "editorials": "P",
+      "letters": "P"
+    }
+  }
+]
